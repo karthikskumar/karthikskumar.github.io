@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "library(rCharts)\nhair_eye_male <- subset(as.data.frame(HairEyeColor), Sex == \"Male\")\nn1 <- nPlot(Freq ~ Hair, group = \"Eye\", data = hair_eye_male, type = \"multiBarChart\")\nn1$print(\"chart3\",cnd=TRUE, include_assets = TRUE)\n",
+    "created" : 1472767809968.000,
+    "dirty" : true,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "2228887150",
+    "id" : "BB4AEC14",
+    "lastKnownWriteTime" : 4294967302,
+    "last_content_update" : 1472771667132,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

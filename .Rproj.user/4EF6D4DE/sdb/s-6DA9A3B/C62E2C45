@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "---\ntitle: Data Visualisation Using slidify and rCharts\nauthor: Karthik Shivkumar\nmode  : selfcontained\nframework: impressjs\ngithub:\n  user: ramnathv\n  repo: slidify\ntwitter:\n  text: \"Slidify with impress.js!\"\n--- .slide x:-1000 y:-1500\n\n<q>Aren't you just **bored** with all those slides-based presentations?</q>\n\n--- .slide x:0 y:-1500\n\n<q>Don't you think that presentations given **in modern browsers** shouldn't **copy the limits** of 'classic' slide decks?</q>\n\n--- .slide x:1000 y:-1500\n\n<q>Would you like to **impress your audience** with **stunning visualization** of your talk?</q>\n\n--- #title x:0 y:0 scale:4\n\n<span class=\"try\">then you should try</span>\n# impress.js^*\n<span class=\"footnote\">^* no rhyme intended</span>\n\n--- #its x:850 y:3000 rot:45 scale:5\n\n It's a **presentation tool** <br/>\ninspired by the idea behind [prezi.com](http://prezi.com) <br/>\nand based on the **power of CSS3 transforms and transitions** in modern browsers.\n\n--- #big x:3500 y:2100 rot:180 scale:6\n\nvisualize your <b>big</b> <span class=\"thoughts\">thoughts</span>\n\n--- #tiny x:2825 y:2325 z:-3000 rot:300 scale:1\n\nand **tiny** ideas\n\n--- #ing x:3500 y:-850 rot:270 scale:6\nby <b class=\"positioning\">positioning</b>, <b class=\"rotating\">rotating</b> and <b class=\"scaling\">scaling</b> them on an infinite canvas\n\n--- #imagination x:6700 y:-300 scale:6\n\nthe only **limit** is your <b class=\"imagination\">imagination</b>\n\n--- #source x:6300 y:2000 rot:20 scale:4\n\nwant to know more?\n\n<q>[use the source](http://github.com/bartaz/impress.js), Luke</q>\n\n--- #one-more-thing x:6000 y:4000 scale:2\n\none more thing...\n\n--- #its-in-3d x:6200 y:4300 z:-100 rotx:-40 roty:-10 scale:2\n\n<span class=\"have\">have</span> <span class=\"you\">you</span> <span class=\"noticed\">noticed</span> <span class=\"its\">it's</span> <span class=\"in\">in</span> <b>3D<sup>*</sup></b>?\n\n<span class=\"footnote\">* beat that, prezi ;)</span>\n\n--- #rstats x:-1000 y:5000  scale:0.5\n```{r pressure, echo=FALSE,include=TRUE}\nlibrary(rCharts)\nhair_eye_male <- subset(as.data.frame(HairEyeColor), Sex == \"Male\")\nn1 <- nPlot(Freq ~ Hair, group = \"Eye\", data = hair_eye_male, type = \"multiBarChart\")\nn1$show('inline',cnd=TRUE, include_assets = TRUE)\n```\n\n<!-- This deck was built using [Slidify](http://www.slidify.org) and styled with [impress.js](http://github.com/bartaz/impress.js). Click [here](https://raw.github.com/ramnathv/slidify/gh-pages/samples/impressjs/index.Rmd) to view the source! -->\n\n\n  ",
+    "created" : 1472767661051.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "4294810850",
+    "id" : "C62E2C45",
+    "lastKnownWriteTime" : 1472772119,
+    "last_content_update" : 1472772119590,
+    "path" : "~/M/Projects/karthikskumar.github.io/karthikskumar.github.io.Rmd",
+    "project_path" : "karthikskumar.github.io.Rmd",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}
